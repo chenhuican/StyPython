@@ -149,7 +149,7 @@ manager.create_api(orm.Test, methods=['POST', 'PATCH'], preprocessors={'POST':[p
 class Messages(Resource):
     def post(self):
         pass
-        print "POST a Message:", request.data,"--"
+        print("POST a Message:", request.data,"--")
         body = json.loads(request.data)
         if body[ProtocolItem.MESSAGES][ProtocolItem.DEST_TYPE] == ProtocolItem.VALUE_IOS:
             threading.Thread(target=Util.push_ios,args=([body[ProtocolItem.MESSAGES][ProtocolItem.DEST_ID]], "alarm", body[ProtocolItem.MESSAGES][ProtocolItem.CONTENT])).start()

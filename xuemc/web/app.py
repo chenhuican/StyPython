@@ -1,6 +1,6 @@
 import sys, os
-reload(sys)
-sys.setdefaultencoding('utf-8')
+#reload(sys)
+#sys.setdefaultencoding('utf-8')
 sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__))))
 sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)),'..'))
 

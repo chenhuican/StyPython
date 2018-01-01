@@ -1,7 +1,7 @@
 
 import sys,os
-reload(sys)
-sys.setdefaultencoding('utf8')
+#reload(sys)
+#sys.setdefaultencoding('utf8')
 
 import Util
 if Util.isWindows():

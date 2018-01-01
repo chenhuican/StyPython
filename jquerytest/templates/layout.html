@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Example</title>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<!-- 在jQuery里没法使用url_for函数获取地址，所以我们使用request设置一个动态的全局变量: SCRIPT_ROOT 这个变量（$SCRIPT_ROOT）代表你的程序根地址，相当于“/”。比如在本地，它就是“http://127.0.0.1”。-->
+	<script type="text/javascript">
+		var $SCRIPT_ROOT = {{request.script_root|tojson|safe}}
+	</script>
+</head>
+<body>
+{% block body %}{% endblock %}
+</body>
+</html>
