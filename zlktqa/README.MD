@@ -12,8 +12,7 @@ Generating J:\zlktqa\migrations\alembic.ini ... done
 Generating J:\zlktqa\migrations\env.py ... done
 Generating J:\zlktqa\migrations\README ... done
 Generating J:\zlktqa\migrations\script.py.mako ... done
-Please edit configuration/connection/logging settings in 'J:\\z
-ing.
+Please edit configuration/connection/logging settings in 'J:\\zing.
 
 执行后 会在项目目录下 出现一个 migrations文件夹
 
