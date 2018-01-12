@@ -2,7 +2,7 @@
 from web.app import app, api
 from Utils import Util, ProtocolItem
 import json, threading, datetime
-from DB import orm
+from DB import ormb
 from Logic import logic, restful
 
 from flask import Flask, request

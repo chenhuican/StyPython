@@ -70,9 +70,9 @@ def GetBulletins(page, title=None):
 
 def GetPagingFromResult(result):
     total_pages=int(result[ITEM_TOTAL_PAGES])
-    page = int(result[ITEM_PAGE])
-    page_from = max(1,page-5)
-    page_to = min(total_pages,page+5)
+    page = int(result[ITEM_PAGE]) #当前页
+    page_from = max(1,page-5)  # 取第一页，或当前页之前第五页
+    page_to = min(total_pages,page+5)  #取最后一页或当前页之后第五页
     return {'total_pages':total_pages, 'page': page, 'page_from':page_from, 'page_to': page_to}
 
 
