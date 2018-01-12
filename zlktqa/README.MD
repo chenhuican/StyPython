@@ -1,7 +1,7 @@
 http://www.bootcdn.cn/
 http://www.bootcss.com/
 
-## 1、初始化数据库迁移环境
+##1、初始化数据库迁移环境
 进入项目目录执行：
 #python manage.py db init
 
@@ -16,7 +16,7 @@ Please edit configuration/connection/logging settings in 'J:\\zing.
 
 执行后 会在项目目录下 出现一个 migrations文件夹
 
-## 2、把表映射到数据库中,生成迁移文件
+##2、把表映射到数据库中,生成迁移文件
 #python manage.py db migrate
 
 J:\zlktqa>python manage.py db migrate    
@@ -35,7 +35,7 @@ INFO  [alembic.runtime.migration] Running upgrade  -> e9fdf18dc9cf, empty mes
 
 执行后，数据库中就有相应的表了    
 
-## 3、查看mysql数据库中对应的表
+##3、查看mysql数据库中对应的表
 mysql> show tables;    
 +----------------------+    
 | Tables_in_wenda_demo |    
