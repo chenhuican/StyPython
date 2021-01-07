@@ -30,7 +30,7 @@ docutils==0.12
 flipflop==1.0
 guess-language==0.2
 itsdangerous==0.24
-lxml==3.4.4
+lxml==4.6.2
 mimerender==0.5.5
 pbr==0.11.0
 pg8000==1.10.2
