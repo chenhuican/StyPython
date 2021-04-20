@@ -18,7 +18,7 @@ SOAPpy==0.12.22
 SQLAlchemy==0.9.9
 Tempita==0.5.2
 WTForms==2.0.2
-Werkzeug==0.10.4
+Werkzeug==0.15.3
 Whoosh==2.7.0
 aniso8601==1.0.0
 argparse==1.2.1
